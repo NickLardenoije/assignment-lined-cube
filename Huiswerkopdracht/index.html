@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubus in grid.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <!-- Gemaakt door Nick Lardenoije op 2-3-2020. -->
+</head>
+<body>
+    <div>
+        <!-- Deze svg class is bedoeld voor de groene kubus in de grid. -->
+        <svg viewbox= "0 0 1000 1000">
+            <g class="kubus">
+            <!-- Voorkant van de kubus. -->
+            <path d= "M200 400, v-130, h130, v130, h-130, v-130"; /> 
+            <!-- Eerste schuine lijn van de kubus. -->
+            <line x1="200" y1="270" x2="265" y2="205"
+            style="stroke:(100,0,0);stroke-width:2"/>
+            <!-- Zijkant kubus. -->
+            <path d= "M395 335, v-130"; /> 
+            <!-- Bovenkant kubus. -->
+            <path d= "M265 205, h130"; /> 
+            <!-- Tweede schuine lijn van de kubus. -->
+            <line x1="330" y1="270" x2="395" y2="205"
+            style="stroke:(100,0,0);stroke-width:2"/>
+            <!-- Derde schuine lijn van de kubus. -->
+            <line x1="330" y1="400" x2="395" y2="335"
+            style="stroke:(100,0,0);stroke-width:2"/>
+            </g>
+        </svg>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg version = "1.1"
+    baseProfile = "full"
+    viewbox= "0 0 1000 1000"
+    xmlns= "http://www.w3.org/2000/svg"
+    fill= "white"
+    stroke= "red"
+    stroke-width= "1">
+     <!-- de eerste regel is voor de verticale lijnen te tekenen in de grid. De tweede regel is voor de horizontale lijnen in de grid. De tekst hierboven is bedoeld voor de juiste instellingen. -->
+        <path d= "M3 10, h1000,v1000, h-1000,v-1000, h900,v1000 h-100,v-1000 h-100,v1000 h-100,v-1000 h-100,v1000 h-100,v-1000 h-100,v1000 h-100,v-1000 h-100,v1000 h-100,v-100   
+        h1000,v-100 h-1000,v-100 h1000,v-100 h-1000,v-100 h1000,v-100 h-1000,v-100 h1000,v-100 h-1000,v-100 h1000,v-100"/>   
+</svg>
+
